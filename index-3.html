@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Millionaire</title>
-</head>
-<body>
-    
-</body>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+
+
+</style>
+
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <section>
+       
+        <div class="grid grid-cols-2 my-10 ml-24">
+
+        <!-- *img field start -->
+        <div class="w-[80%]">
+          <img src="./img/Cat profile (1).jpg" alt="">
+      </div>
+      <!-- ?end img field -->
+
+           <div class="flex-1 ml-40">
+            <!-- *inputs-buttons container start -->
+            
+<!-- ^1st input start -->
+            <h1>INCOME</h1>
+
+          <div class="flex mt-10">
+              <p>Salary</p>
+              <input type="email" name="" id="income-field" class="py-2 w-[40%] px-2 ml-2 bg-gray-200">
+          </div>
+<!-- &1st input end -->
+
+
+<!-- ^2nd input start -->
+             <h1>EXPENSES</h1>
+
+          <div class="flex mt-10">
+             <p>Food</p>
+             <input type="email" name="" id="expenses-field" class="py-2 w-[40%] px-2 ml-2 bg-gray-200">
+          </div>
+<!-- &2nd input end -->
+
+           
+<!-- ^3rd input start -->
+          <div class="flex mt-10">
+            <p>Rent</p>
+            <input type="email" name="" id="rent-field" class="py-2 w-[40%] px-2 ml-2 bg-gray-200">
+          </div>
+<!-- &3rd input end -->
+
+
+<!-- ^ 4th input start-->
+          <div class="flex mt-10">
+            <p>Clothes</p>
+            <input type="email" name="" id="clothes-filed" class="py-2 w-[40%] px-2 ml-2  bg-gray-200">
+          </div>
+<!-- & 4th input end-->
+
+
+<!-- ?whole input's calculate field start -->
+          <div class="flex mt-10"> 
+            <button id="calculator-field" class="bg-slate-300 py-1 px-10">Calculate</button>
+          </div>
+<!-- !whole input's calculate field end -->
+
+
+<!-- ^total expense-balance field start -->
+          <div id="total-expenses" class="mt-5">
+            <p>Total Expenses: </p>
+            <p class="mt-3">Balance: </p>
+          </div>
+<!-- & total expense-balance field end-->
+
+
+<!-- ^save-calculation and save-button start -->
+          <div>
+
+            <div class="flex mt-10">
+              <p>Save: </p>
+              <input type="email" name="" placeholder="%" id="saver-field" class="py-2 w-[25%] px-2 mx-5 bg-gray-200">
+              <p>%</p>
+              <button id="save-field" class="py-1 px-10 ml-5 bg-sky-500">Save</button>
+            </div>
+
+          </div>
+<!--&save-calculation and save-button end  -->
+
+
+<!-- ^saving amount and remaining balance start -->
+          <div id="amount-field" class="mt-10">
+            <p>Saving Amount: </p>
+            <p class="mt-3">Remaining Balance: </p>
+          </div>
+<!-- &saving amount and remaining balance end -->
+
+<!-- !inputs-buttons container start  -->
+           </div>
+
+           <!-- ?parent div end -->
+        </div>
+
+      </section>
+    </main>
+
+    <footer></footer>
+
+
+    <script src="./calculator.js"></script>
+  </body>
 </html>
