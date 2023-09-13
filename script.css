@@ -78,4 +78,10 @@ body{
 .memory:hover{
   border: 1px solid #00e1ff;
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+}
+.memo:hover{
+    text-align: center;
+    text-transform: uppercase;
 }
