@@ -86,9 +86,9 @@
 
             <div class="flex mt-10">
               <p>Save: </p>
-              <input type="email" name="" placeholder="%" id="saver-field" class="py-2 w-[25%] px-2 mx-5 bg-gray-200">
+              <input type="email" name="" id="saver-field" class="py-2 w-[25%] px-2 mx-5 bg-gray-200">
               <p>%</p>
-              <button id="save-field" class="py-1 px-10 ml-5 bg-sky-500">Save</button>
+              <button id="save-btn" class="py-1 px-10 ml-5 bg-sky-500">Save</button>
             </div>
 
           </div>
@@ -96,9 +96,9 @@
 
 
 <!-- ^saving amount and remaining balance start -->
-          <div id="amount-field" class="mt-10">
-            <p>Saving Amount: </p>
-            <p class="mt-3">Remaining Balance: </p>
+          <div class="mt-10">
+            <p>Saving Amount: <span id="saving-element"></span>%</p>
+            <p class="mt-3">Remaining Balance: <span id="balance-remain"></span></p>
           </div>
 <!-- &saving amount and remaining balance end -->
 
@@ -115,5 +115,6 @@
 
 
     <script src="./calculator.js"></script>
+    <script src="./saving.js"></script>
   </body>
 </html>
