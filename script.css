@@ -1,4 +1,77 @@
- 
+     
+body{
 
-         
-         
+  background: linear-gradient(to right, #16222a, #3a6073);
+
+}     
+           
+       
+.btn-grado {
+  background: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+          margin: 10px;
+          padding: 10px 40px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;            
+          border-radius: 10px;
+          display: block;
+        }
+
+        .btn-grado:hover {
+          background-position: right center; 
+          text-decoration: none;
+        }
+
+        .ayat {
+          background: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;            
+          display: block;
+        }
+      
+        .ayat:hover {
+          background-position: right center; /* change the direction of the change here */
+          color: #fff;
+          text-decoration: none;
+        }
+   
+        .btn-save {
+          background: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+                  text-align: center;
+                  text-transform: uppercase;
+                  transition: 0.5s;
+                  background-size: 200% auto;
+                  color: white;            
+                  border-radius: 10px;
+                  display: block;
+                }
+        
+                .btn-save:hover {
+                  background-position: right center; 
+                  color: #fff;
+                  text-decoration: none;
+                }
+
+                .savement {
+                  background: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+                          text-align: center;
+                          text-transform: uppercase;
+                          transition: 0.5s;
+                          background-size: 200% auto;
+                          color: white;            
+                          border-radius: 10px;
+                          display: block;
+                        }
+                
+                        .savement:hover {
+                          background-position: right center; 
+                          color: #fff;
+                          text-decoration: none;
+                        }
+                        
+.memory{
+  background: linear-gradient(to right, #16222a, #3a6073);
+
+}
